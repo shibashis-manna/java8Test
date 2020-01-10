@@ -1,0 +1,18 @@
+L~LINE~TRIS Limit~2,1,3,5,26,15,7,10,4,8,6,17,CD,14,22,9
+T~LINE~TRIS Limit~TX
+T~TRANS~TRIS Limit~TX,CD
+P~LINE~90% TPES POL~
+P~TRANS~90% TPES POL~
+U~LINE~TRIS Limit~CA
+U~TRANS~TRIS Limit~CA
+B~LINE~TRIS Limit~CB, CB+
+B~TRANS~TRIS Limit~CB, CB+
+C~LINE~Hard Limit: TRIS minus 20~CT, CCV, LT
+C~TRANS~Hard Limit: TRIS minus 20~CT, CCV, LT
+D~LINE~TRIS Limit~DIS, DES
+D~TRANS~TRIS Limit~DIS, DES
+O~LINE~Reasonability Limit minus 5A~REA
+O~TRANS~Reasonability Limit minus 5A~REA
+X~TRANS~TRIS Limit~CAP
+X~TRANS~Manual Override~
+X~LINE~Manual Override~ 
